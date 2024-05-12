@@ -5,6 +5,9 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+
+
+    android:background="#D2E6E1"
     tools:context=".AddnotesActivity">
 
 
@@ -14,15 +17,15 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_marginTop="16dp"
-         android:fontFamily="@font/poppins"
+        android:fontFamily="@font/poppins"
         android:text="Add Note"
         android:textColor="@color/purple"
         android:textSize="24sp" />
 
     <ImageView
         android:id="@+id/saveBotton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="39dp"
+        android:layout_height="42dp"
         android:layout_alignTop="@id/AddNoteHeading"
         android:layout_alignParentEnd="true"
         android:layout_marginEnd="6dp"
@@ -35,7 +38,7 @@
         android:layout_below="@id/AddNoteHeading"
         android:layout_marginTop="16dp"
         android:background="@drawable/purple_border"
-        android:fontFamily="@font/poppins"
+
         android:hint="Enter The Title"
         android:padding="12dp"
         android:textColor="@color/purple"
@@ -45,15 +48,13 @@
         android:id="@+id/contentEditText"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:hint="Enter The Description"
-        android:gravity="top"
-        android:padding="12dp"
-        android:textSize="24sp"
-        android:background="@drawable/purple_border"
         android:layout_below="@id/titleEditText"
-        android:layout_marginTop="12dp"/>
-
-
+        android:layout_marginTop="12dp"
+        android:background="@drawable/purple_border"
+        android:gravity="top"
+        android:hint="Enter The Description"
+        android:padding="12dp"
+        android:textSize="24sp" />
 
 
 </RelativeLayout>
